@@ -1,0 +1,240 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Magic Show / Science Fair 2026</title>
+    <link rel="stylesheet" href="science-fair-static.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="site-header">
+        <div class="site-header__inner">
+          <a class="brand-mark" href="index.html">
+            <img src="assets/science-fair-2026-logo.jpg" alt="Science Fair 2026 logo" />
+            <span><strong>Science Fair</strong><span>2026 · The Power Is Yours</span></span>
+          </a>
+          <nav class="nav-links" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="team-preview.html">Team</a>
+            <a href="journey-preview.html">Journey</a>
+            <a class="is-active" href="magic-show-preview.html">Magic Show</a>
+            <a href="management-group.html">Join Us</a>
+          </nav>
+        </div>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+          <a href="index.html">Home</a>
+          <a href="team-preview.html">Team</a>
+          <a href="journey-preview.html">Journey</a>
+          <a class="is-active" href="magic-show-preview.html">Magic Show</a>
+            <a href="management-group.html">Join Us</a>
+        </nav>
+      </header>
+
+      <div class="site-content">
+        <section class="page-hero">
+          <div class="container">
+            <span class="hero-kicker">Magic Show Projects</span>
+            <h1>Science powers on stage</h1>
+            <p>
+              Magic Show brings the loudest, brightest, and most surprising
+              experiments into one stage route. Each project begins with a dramatic
+              effect, then reveals the science that makes the power work.
+            </p>
+          </div>
+        </section>
+
+        <section class="section section--compact">
+          <div class="container">
+            <div class="section-heading">
+              <div>
+                <span class="section-heading__label">The Power Is Yours</span>
+                <h2>10 projects, one mission route.</h2>
+              </div>
+              <p>
+                Filter by category, open each classified project file, and replace
+                the placeholders with real photos when your project images are ready.
+              </p>
+            </div>
+
+            <div class="magic-filter-board">
+              <input checked id="filter-all" name="magic-filter" type="radio" />
+              <input id="filter-physics" name="magic-filter" type="radio" />
+              <input id="filter-chemistry" name="magic-filter" type="radio" />
+              <input id="filter-biology" name="magic-filter" type="radio" />
+              <input id="filter-engineering" name="magic-filter" type="radio" />
+              <input id="filter-illusion" name="magic-filter" type="radio" />
+              <div class="filter-controls" aria-label="Magic Show category filters">
+                <label for="filter-all">All</label>
+                <label for="filter-physics">Physics</label>
+                <label for="filter-chemistry">Chemistry</label>
+                <label for="filter-biology">Biology</label>
+                <label for="filter-engineering">Engineering</label>
+                <label for="filter-illusion">Illusion</label>
+              </div>
+
+              <div class="project-grid">
+                <article class="project-card" data-category="illusion" style="--project-accent:#4DEBFF">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-hologram-cover.jpg" alt="Hologram project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 01</span><span class="chip">Illusion</span></div>
+                    <h3>Hologram</h3>
+                    <p>A floating image illusion that reveals reflection, projection, and viewing angle.</p>
+                    <a class="project-link" href="#project-hologram">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="engineering" style="--project-accent:#E64A2E">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-iron-man-shooter.png" alt="Iron Man Shooter project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 02</span><span class="chip">Engineering</span></div>
+                    <h3>Iron Man Shooter</h3>
+                    <p>A controlled launch device inspired by superhero gear and stored energy.</p>
+                    <a class="project-link" href="#project-iron">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="physics" style="--project-accent:#FFD84A">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-leyden-jar-diagram.png" alt="Leyden Jar project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 03</span><span class="chip">Physics</span></div>
+                    <h3>Leyden Jar</h3>
+                    <p>A classic charge-storage demo that makes invisible electricity easier to explain.</p>
+                    <a class="project-link" href="#project-leyden">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="chemistry" style="--project-accent:#4DEBFF">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-nitrogen-cannon-cover.jpg" alt="Nitrogen Cannon project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 04</span><span class="chip">Chemistry</span></div>
+                    <h3>Nitrogen Cannon</h3>
+                    <p>A dramatic gas expansion blast that connects temperature and pressure.</p>
+                    <a class="project-link" href="#project-nitrogen">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="physics" style="--project-accent:#7C3AED">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-plasma-cannon-cover.jpg" alt="Plasma Cannon project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 05</span><span class="chip">Physics</span></div>
+                    <h3>Plasma Cannon</h3>
+                    <p>Glowing ionized gas turns superhero energy visuals into a science explanation.</p>
+                    <a class="project-link" href="#project-plasma">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="physics" style="--project-accent:#2EE59D">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-van-de-graaff-cover.jpg" alt="Static Electricity project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 06</span><span class="chip">Physics</span></div>
+                    <h3>Static Electricity</h3>
+                    <p>Everyday charge becomes visible through attraction, repulsion, and movement.</p>
+                    <a class="project-link" href="#project-static">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="chemistry" style="--project-accent:#2EE59D">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-sodium-acetate-water-fire-proof-material.jpg" alt="Sodium Acetate&Water/Fire Proof Material project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 07</span><span class="chip">Chemistry</span></div>
+                    <h3>Sodium Acetate&Water/Fire Proof Material</h3>
+                    <p>An instant-crystal effect that explains supersaturation and heat release.</p>
+                    <a class="project-link" href="#project-acetate">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="chemistry" style="--project-accent:#FF7A3D">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-sugar-glass-cover.jpg" alt="Sugar Glass project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 08</span><span class="chip">Chemistry</span></div>
+                    <h3>Sugar Glass</h3>
+                    <p>A familiar ingredient becomes a theatrical material through heating and cooling.</p>
+                    <a class="project-link" href="#project-sugar">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="engineering" style="--project-accent:#E64A2E">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/hero-science-fair.svg" alt="Tissue Shooter project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 09</span><span class="chip">Engineering</span></div>
+                    <h3>Tissue Shooter</h3>
+                    <p>A soft launch path makes air pressure and direction easy to see.</p>
+                    <a class="project-link" href="#project-tissue">Open project file</a>
+                  </div>
+                </article>
+                <article class="project-card" data-category="physics" style="--project-accent:#7C3AED">
+                  <div class="project-card__stripe"></div>
+                  <div class="project-card__body">
+                    <img class="project-card__image" src="assets/magic-vortex-cannon-cover.jpg" alt="Vortex Cannon project visual" />
+                    <div class="project-card__meta"><span class="chip">Project 10</span><span class="chip">Physics</span></div>
+                    <h3>Vortex Cannon</h3>
+                    <p>A ring of moving air turns invisible airflow into a force wave.</p>
+                    <a class="project-link" href="#project-vortex">Open project file</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <div class="site-footer__inner container">
+            <p>Science Fair 2026 · The Power Is Yours</p>
+            <div class="site-footer__links">
+              <a href="index.html">Home</a>
+              <a href="team-preview.html">Team</a>
+              <a href="journey-preview.html">Journey</a>
+              <a href="magic-show-preview.html">Magic Show</a>
+            <a href="management-group.html">Join Us</a>
+            </div>
+            <p>sciencefair@example.com</p>
+          </div>
+        </footer>
+      </div>
+
+      <div class="modal" id="project-hologram" role="dialog" aria-label="Hologram detail">
+        <div class="modal__panel">
+          <img class="modal__media" src="assets/magic-hologram-cover.jpg" alt="Hologram project" />
+          <div class="modal__copy">
+            <h3>Hologram</h3>
+            <p>A floating image illusion that reveals reflection, projection, and viewing angle.</p>
+            <div class="project-detail-grid">
+              <div><span>Hero power</span><strong>Phantom Vision</strong></div>
+              <div><span>Science principle</span><strong>Reflection, projection, viewing angle</strong></div>
+              <div><span>Presenter</span><strong>Optics Team</strong></div>
+              <div><span>Safety note</span><strong>Control room lighting for best effect.</strong></div>
+            </div>
+            <div class="project-video-block"><span>Project video</span><video class="project-video" controls preload="metadata" poster="assets/magic-hologram-cover.jpg" src="assets/magic-hologram-demo.mp4"></video></div><div class="hero-actions"><a class="button-secondary" href="magic-project-hologram.html">Open full page</a><a class="modal__close" href="#">Close project</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="project-iron" role="dialog" aria-label="Iron Man Shooter detail">
+        <div class="modal__panel">
+          <img class="modal__media" src="assets/magic-iron-man-shooter.png" alt="Iron Man Shooter project" />
+          <div class="modal__copy"><h3>Iron Man Shooter</h3><p>Stored energy is released in a controlled launch direction.</p><div class="project-detail-grid"><div><span>Hero power</span><strong>Repulsor Launch</strong></div><div><span>Science principle</span><strong>Stored energy, force, direction</strong></div><div><span>Presenter</span><strong>Launcher Team</strong></div><div><span>Safety note</span><strong>Use lightweight targets and a marked lane.</strong></div></div><div class="project-video-block"><span>Project video</span><video class="project-video" controls preload="metadata" poster="assets/magic-iron-man-shooter.png" src="assets/magic-iron-man-shooter-demo.mp4"></video></div><div class="hero-actions"><a class="button-secondary" href="magic-project-iron-man-shooter.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div>
+        </div>
+      </div>
+      <div class="modal" id="project-leyden" role="dialog" aria-label="Leyden Jar detail">
+        <div class="modal__panel">
+          <img class="modal__media" src="assets/magic-leyden-jar-diagram.png" alt="Leyden Jar project" />
+          <div class="modal__copy"><h3>Leyden Jar</h3><p>Opposite charges collect on two conducting surfaces separated by an insulator.</p><div class="project-detail-grid"><div><span>Hero power</span><strong>Charge Vault</strong></div><div><span>Science principle</span><strong>Capacitance and discharge</strong></div><div><span>Presenter</span><strong>Electricity Team</strong></div><div><span>Safety note</span><strong>Teacher supervision and safe charge levels.</strong></div></div><div class="hero-actions"><a class="button-secondary" href="magic-project-layden-jar.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div>
+        </div>
+      </div>
+      <div class="modal" id="project-nitrogen" role="dialog" aria-label="Nitrogen Cannon detail">
+        <div class="modal__panel">
+          <img class="modal__media" src="assets/magic-nitrogen-cannon-cover.jpg" alt="Nitrogen Cannon project" />
+          <div class="modal__copy"><h3>Nitrogen Cannon</h3><p>Rapid gas expansion creates a visible pressure blast.</p><div class="project-detail-grid"><div><span>Hero power</span><strong>Cryo Blast</strong></div><div><span>Science principle</span><strong>Temperature, phase change, expanding gas</strong></div><div><span>Presenter</span><strong>Cryo Team</strong></div><div><span>Safety note</span><strong>Use goggles, gloves, distance markers, and adult supervision.</strong></div></div><div class="project-video-block"><span>Project video</span><video class="project-video" controls preload="metadata" poster="assets/magic-nitrogen-cannon-cover.jpg" src="assets/magic-nitrogen-cannon-demo.mp4"></video></div><div class="hero-actions"><a class="button-secondary" href="magic-project-nitrogen-cannon.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div>
+        </div>
+      </div>
+      <div class="modal" id="project-plasma" role="dialog" aria-label="Plasma Cannon detail"><div class="modal__panel"><img class="modal__media" src="assets/magic-plasma-cannon-cover.jpg" alt="Plasma Cannon project" /><div class="modal__copy"><h3>Plasma Cannon</h3><p>Ionized gas releases visible light as a superhero energy effect.</p><div class="project-video-block"><span>Project video</span><video class="project-video" controls preload="metadata" poster="assets/magic-plasma-cannon-cover.jpg" src="assets/magic-plasma-cannon-demo.mp4"></video></div><div class="hero-actions"><a class="button-secondary" href="magic-project-plasma-cannon.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div></div></div>
+      <div class="modal" id="project-static" role="dialog" aria-label="Static Electricity detail"><div class="modal__panel"><img class="modal__media" src="assets/magic-van-de-graaff-cover.jpg" alt="Static Electricity project" /><div class="modal__copy"><h3>Static Electricity</h3><p>Electron transfer creates attraction, repulsion, and small visible motion.</p><div class="project-video-block"><span>Project video</span><video class="project-video" controls preload="metadata" poster="assets/magic-van-de-graaff-cover.jpg" src="assets/magic-van-de-graaff-demo.mp4"></video></div><div class="hero-actions"><a class="button-secondary" href="magic-project-power-of-static-electricity.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div></div></div>
+      <div class="modal" id="project-acetate" role="dialog" aria-label="Sodium Acetate&Water/Fire Proof Material detail"><div class="modal__panel"><img class="modal__media" src="assets/magic-sodium-acetate-water-fire-proof-material.jpg" alt="Sodium Acetate&Water/Fire Proof Material project" /><div class="modal__copy"><h3>Sodium Acetate&Water/Fire Proof Material</h3><p>A supersaturated solution crystallizes quickly when triggered.</p><div class="hero-actions"><a class="button-secondary" href="magic-project-sodium-acetate-proof-material.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div></div></div>
+      <div class="modal" id="project-sugar" role="dialog" aria-label="Sugar Glass detail"><div class="modal__panel"><img class="modal__media" src="assets/magic-sugar-glass-cover.jpg" alt="Sugar Glass project" /><div class="modal__copy"><h3>Sugar Glass</h3><p>Heated sugar syrup cools into a brittle transparent sheet.</p><div class="project-video-block"><span>Project video</span><video class="project-video" controls preload="metadata" poster="assets/magic-sugar-glass-cover.jpg" src="assets/magic-sugar-glass-demo.mp4"></video></div><div class="hero-actions"><a class="button-secondary" href="magic-project-sugar-glass.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div></div></div>
+      <div class="modal" id="project-tissue" role="dialog" aria-label="Tissue Shooter detail"><div class="modal__panel"><img class="modal__media" src="assets/hero-science-fair.svg" alt="Tissue Shooter project" /><div class="modal__copy"><h3>Tissue Shooter</h3><p>Air moving through a tube transfers momentum to a light object.</p><div class="hero-actions"><a class="button-secondary" href="magic-project-tissue-shooter.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div></div></div>
+      <div class="modal" id="project-vortex" role="dialog" aria-label="Vortex Cannon detail"><div class="modal__panel"><img class="modal__media" src="assets/magic-vortex-cannon-cover.jpg" alt="Vortex Cannon project" /><div class="modal__copy"><h3>Vortex Cannon</h3><p>A quick push of air through a round opening creates a rotating vortex ring.</p><div class="project-video-block"><span>Project video</span><video class="project-video" controls preload="metadata" poster="assets/magic-vortex-cannon-cover.jpg" src="assets/magic-vortex-cannon-demo-1.mp4"></video></div><div class="project-video-block"><span>Project video 2</span><video class="project-video" controls preload="metadata" poster="assets/magic-vortex-cannon-cover.jpg" src="assets/magic-vortex-cannon-demo-2.mp4"></video></div><div class="hero-actions"><a class="button-secondary" href="magic-project-votex-cannon.html">Open full page</a><a class="modal__close" href="#">Close project</a></div></div></div></div>
+    </main>
+  </body>
+</html>
+
